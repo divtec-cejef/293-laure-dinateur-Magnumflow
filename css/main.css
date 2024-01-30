@@ -1,0 +1,10 @@
+#information header {
+    background-color: #011627;
+}
+#information header li a {
+    display: inline;
+    text-decoration: none;
+}
+#information  h1 {
+    color: #2ec4b6;
+}
