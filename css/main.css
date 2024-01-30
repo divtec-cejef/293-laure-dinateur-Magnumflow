@@ -1,3 +1,36 @@
+/****************************************************************
+                Police custom
+ ****************************************************************/
+@font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v40-latin-regular.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v40-latin-italic.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/open-sans-v40-latin-800.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Changa One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/changa-one-v20-latin-regular.woff2') format('woff2');
+}
+
 /*******************************************************
                    HEADER + CSS BASIC
 *******************************************************/
@@ -21,7 +54,7 @@ header li a:hover {
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.4;
@@ -42,6 +75,11 @@ a {
 
 a:hover {
     color: darkmagenta;
+}
+h1,
+h2,
+h3 {
+    font-family: 'Changa One', sans serif;
 }
 /*************************************************************
             PAGE ACCUEIL
@@ -69,8 +107,3 @@ a:hover {
 
 
 
-
-
-/****************************************************************
-                Police custom
- ****************************************************************/
