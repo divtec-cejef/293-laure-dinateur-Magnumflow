@@ -43,9 +43,6 @@ header li a {
     color: #fdfffc;
     font-weight: bold;
 }
-header li a:hover {
-    color: #2ec4b6;
-}
  header h1 {
     color: #2ec4b6;
 }
@@ -58,8 +55,8 @@ body {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.4;
-    color: darkblue;
-    background-color: whitesmoke;
+    color: #011627;
+    background-color: #fdfffc;
 }
 
 img {
@@ -69,17 +66,28 @@ img {
 }
 
 a {
-    color: deeppink;
+    color: #e71d36;
     text-decoration: none;
 }
 
 a:hover {
-    color: darkmagenta;
+    color: #2ec4b6;
 }
 h1,
 h2,
 h3 {
     font-family: 'Changa One', sans serif;
+}
+p {
+    line-height: 1.5;
+}
+h2 {
+font-size: 1.5rem;
+    margin-bottom: .75rem;
+}
+h1 {
+    font-size:1rem;
+    margin-bottom: 1rem;
 }
 /*************************************************************
             PAGE ACCUEIL
