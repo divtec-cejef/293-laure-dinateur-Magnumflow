@@ -122,7 +122,9 @@ header ul li:first-child {
     margin-left: 0;
     padding-left: 0;
 }
-
+ header .pagsel {
+    color: #2ec4b6;
+}
 /*************************************************************
             PAGE ACCUEIL
  ************************************************************/
@@ -150,7 +152,9 @@ main p {
 main h1 {
     text-align: center;
 }
-
+/************************************************************************************
+                    FOOTER
+*********************************************************************************/
 footer {
     padding-top: 50px;
 }
@@ -173,3 +177,4 @@ footer img:hover {
     filter: grayscale(0);
     transition: filter 500ms linear;
 }
+
