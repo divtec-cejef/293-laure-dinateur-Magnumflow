@@ -37,7 +37,6 @@
                    HEADER + CSS BASIC
 *******************************************************/
 html {
-    max-width: 480px;
     margin: auto;
 }
 
@@ -53,11 +52,11 @@ header li a {
     font-weight: bold;
 }
 
-header h1 {
+header a h1 {
     color: #2ec4b6;
 }
 
-header h2 {
+header a h2 {
     color: #e71d36;
     font-family: "Open Sans";
     font-weight: 400;
@@ -130,12 +129,69 @@ header .pagsel {
 /*************************************************************
             PAGE ACCUEIL
  ************************************************************/
+main {
+    margin: 0 5%;
+}
 
+.realisation {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    background-color: #e7e9eb;
+    margin: 0;
+}
+
+.realisation a {
+    color: #011627;
+}
+
+figcaption {
+    font-size: 1rem;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.realisation li {
+    flex-basis: 45%;
+    margin: 2.5%;
+    flex-grow: 2;
+}
+
+.non {
+    text-align: left;
+}
 
 /***************************************************************
                 Page Contact
  *****************************************************************/
+.contact ul li {
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-position: 0 65%;
+    padding-left: 5px;
+}
 
+.contact ul li:first-child {
+    background-image: url("images/phone.png");
+}
+
+.contact ul li:last-child {
+    background-image: url("images/mail.png");
+}
+
+.contact ul li:nth-child(2) {
+    background-image: url("images/twitter.png");
+}
+
+.contact ul li:nth-child(3) {
+    background-image: url("images/facebook.png");
+}
 
 /****************************************************************
                 Page Information
@@ -178,25 +234,3 @@ footer img:hover {
     transition: filter 500ms linear;
 }
 
-.contact ul li {
-    list-style-type: none;
-    background-repeat: no-repeat;
-    background-position: 0 65%;
-    padding-left: 5px;
-}
-
-.contact ul li:first-child {
-    background-image: url("images/phone.png");
-}
-
-.contact ul li:last-child {
-    background-image: url("images/mail.png");
-}
-
-.contact ul li:nth-child(2) {
-    background-image: url("images/twitter.png");
-}
-
-.contact ul li:nth-child(3) {
-    background-image: url("images/facebook.png");
-}
