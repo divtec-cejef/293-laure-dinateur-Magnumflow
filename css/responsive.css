@@ -1,3 +1,53 @@
-@media screen {
-    
+@media screen and (min-width: 480px) {
+    .non {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .realisation li {
+        flex-basis: 25%;
+        flex-grow: 3;
+    }
+
+    .col {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col div {
+        width: 50%;
+    }
+
+    .col div:last-child {
+        width: 40%;
+        margin-left: 10%;
+    }
+
+    .autophoto {
+        border-radius: 360px;
+        display: block;
+        float: left;
+        margin: 0 1em 20px 0;
+        width: 20%;
+    }
 }
+
+@media screen and (min-width: 660px) {
+    header h1,
+    header h2 {
+        text-align: left;
+    }
+
+    header {
+        border-bottom: 5px solid #2ec4b6;
+    }
+
+}
+
+
+/*@media screen and (max-width: 1000px) {
+    .realisation li {
+        flex-basis: 30%;
+        flex-grow: 3;
+    }
+}*/
